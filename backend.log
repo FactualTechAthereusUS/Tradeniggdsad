@@ -1,0 +1,928 @@
+INFO:     Will watch for changes in these directories: ['/Users/anmolunhinged/Downloads/Film Space - The Ultimate Master Bundle/CINEGRAMS /cloning the shit out of open web UI/open-webui/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+INFO:     Started reloader process [59459] using WatchFiles
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 07:03:20.227 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 38257.56it/s]
+2025-10-30 07:03:23.491 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 07:03:24.144 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 07:03:24.144 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 07:03:24.152 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 07:03:29.147 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:55787 - "GET /docs HTTP/1.1" 200
+2025-10-30 07:09:26.470 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56857 - "OPTIONS /api/config HTTP/1.1" 200
+2025-10-30 07:09:26.604 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56861 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:09:26.606 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56859 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 07:09:26.609 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56857 - "OPTIONS /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:09:26.650 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56859 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:09:26.659 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56859 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:09:26.693 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56857 - "OPTIONS /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:09:26.693 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56868 - "OPTIONS /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:09:26.696 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "OPTIONS /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:09:26.700 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "OPTIONS /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:09:26.711 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56857 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:09:26.712 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56868 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:09:26.713 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56871 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:09:26.714 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:09:26.716 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "OPTIONS /api/models HTTP/1.1" 200
+2025-10-30 07:09:26.717 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "OPTIONS /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:09:26.717 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56871 - "OPTIONS /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:09:26.724 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:09:26.725 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:09:26.747 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56871 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:09:26.749 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:09:26.754 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "OPTIONS /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:09:26.755 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:09:26.761 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56869 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:09:26.761 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:09:26.825 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56878 - "OPTIONS /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:09:26.832 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56878 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:09:26.962 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56878 - "OPTIONS /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:09:26.969 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56878 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:09:27.569 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56868 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:09:27.598 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56868 - "OPTIONS /api/version/updates HTTP/1.1" 200
+2025-10-30 07:09:27.599 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56878 - "OPTIONS /api/changelog HTTP/1.1" 200
+2025-10-30 07:09:27.612 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56878 - "GET /api/changelog HTTP/1.1" 200
+2025-10-30 07:09:27.676 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56883 - "OPTIONS /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:09:27.682 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56878 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:09:27.687 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56884 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:09:27.694 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56883 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:09:27.733 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56868 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:09:32.101 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56896 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:09:32.101 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:56897 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+WARNING:  WatchFiles detected changes in 'open_webui/main.py', 'open_webui/routers/tradeberg.py'. Reloading...
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 07:09:47.225 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 27575.96it/s]
+2025-10-30 07:09:50.375 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 07:09:51.072 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 07:09:51.074 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 07:09:51.098 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 07:11:17.910 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57317 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:11:17.912 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57319 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 07:11:17.928 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57319 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:11:17.935 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57319 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:11:17.959 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57325 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:11:17.960 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57326 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:11:17.960 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57327 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:11:17.971 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:11:17.971 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:11:17.974 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57327 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:11:17.979 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:11:17.983 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57325 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:11:17.984 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57327 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:11:17.985 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:11:17.989 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57327 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:11:17.994 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57327 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:11:18.625 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57326 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:11:18.635 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57327 - "GET /api/changelog HTTP/1.1" 200
+2025-10-30 07:11:18.675 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57327 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:11:18.676 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57325 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:11:18.678 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57340 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:11:19.127 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57326 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:14:39.768 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:14:39.801 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=3 HTTP/1.1" 200
+2025-10-30 07:14:39.806 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=3 HTTP/1.1" 200
+2025-10-30 07:14:39.900 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=4 HTTP/1.1" 200
+2025-10-30 07:14:39.904 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=4 HTTP/1.1" 200
+2025-10-30 07:14:40.000 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=5 HTTP/1.1" 200
+2025-10-30 07:14:40.003 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=5 HTTP/1.1" 200
+2025-10-30 07:14:40.100 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=6 HTTP/1.1" 200
+2025-10-30 07:14:40.104 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=6 HTTP/1.1" 200
+2025-10-30 07:14:40.201 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=7 HTTP/1.1" 200
+2025-10-30 07:14:40.204 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=7 HTTP/1.1" 200
+2025-10-30 07:14:40.300 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=8 HTTP/1.1" 200
+2025-10-30 07:14:40.303 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=8 HTTP/1.1" 200
+2025-10-30 07:14:40.400 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=9 HTTP/1.1" 200
+2025-10-30 07:14:40.403 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=9 HTTP/1.1" 200
+2025-10-30 07:14:40.500 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=10 HTTP/1.1" 200
+2025-10-30 07:14:40.503 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=10 HTTP/1.1" 200
+2025-10-30 07:14:40.601 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=11 HTTP/1.1" 200
+2025-10-30 07:14:40.605 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=11 HTTP/1.1" 200
+2025-10-30 07:14:40.700 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=12 HTTP/1.1" 200
+2025-10-30 07:14:40.703 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=12 HTTP/1.1" 200
+2025-10-30 07:14:40.801 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=13 HTTP/1.1" 200
+2025-10-30 07:14:40.805 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=13 HTTP/1.1" 200
+2025-10-30 07:14:40.901 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=14 HTTP/1.1" 200
+2025-10-30 07:14:40.904 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=14 HTTP/1.1" 200
+2025-10-30 07:14:41.001 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=15 HTTP/1.1" 200
+2025-10-30 07:14:41.006 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=15 HTTP/1.1" 200
+2025-10-30 07:14:41.100 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=16 HTTP/1.1" 200
+2025-10-30 07:14:41.106 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=16 HTTP/1.1" 200
+2025-10-30 07:14:41.200 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=17 HTTP/1.1" 200
+2025-10-30 07:14:41.204 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=17 HTTP/1.1" 200
+2025-10-30 07:14:41.300 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=18 HTTP/1.1" 200
+2025-10-30 07:14:41.303 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=18 HTTP/1.1" 200
+2025-10-30 07:14:41.400 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=19 HTTP/1.1" 200
+2025-10-30 07:14:41.403 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=19 HTTP/1.1" 200
+2025-10-30 07:14:41.501 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=20 HTTP/1.1" 200
+2025-10-30 07:14:41.505 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=20 HTTP/1.1" 200
+2025-10-30 07:14:41.599 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=21 HTTP/1.1" 200
+2025-10-30 07:14:41.603 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=21 HTTP/1.1" 200
+2025-10-30 07:14:41.701 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=22 HTTP/1.1" 200
+2025-10-30 07:14:41.705 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=22 HTTP/1.1" 200
+2025-10-30 07:14:41.800 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=23 HTTP/1.1" 200
+2025-10-30 07:14:41.804 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=23 HTTP/1.1" 200
+2025-10-30 07:14:41.902 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=24 HTTP/1.1" 200
+2025-10-30 07:14:41.906 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=24 HTTP/1.1" 200
+2025-10-30 07:14:42.001 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=25 HTTP/1.1" 200
+2025-10-30 07:14:42.011 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=25 HTTP/1.1" 200
+2025-10-30 07:14:42.113 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=26 HTTP/1.1" 200
+2025-10-30 07:14:42.118 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=26 HTTP/1.1" 200
+2025-10-30 07:14:42.199 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=27 HTTP/1.1" 200
+2025-10-30 07:14:42.202 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=27 HTTP/1.1" 200
+2025-10-30 07:14:42.300 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "OPTIONS /api/v1/chats/?page=28 HTTP/1.1" 200
+2025-10-30 07:14:42.303 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57849 - "GET /api/v1/chats/?page=28 HTTP/1.1" 200
+2025-10-30 07:14:42.400 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=29 HTTP/1.1" 200
+2025-10-30 07:14:42.403 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=29 HTTP/1.1" 200
+2025-10-30 07:14:42.500 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=30 HTTP/1.1" 200
+2025-10-30 07:14:42.504 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=30 HTTP/1.1" 200
+2025-10-30 07:14:42.600 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=31 HTTP/1.1" 200
+2025-10-30 07:14:42.603 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=31 HTTP/1.1" 200
+2025-10-30 07:14:42.701 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=32 HTTP/1.1" 200
+2025-10-30 07:14:42.704 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=32 HTTP/1.1" 200
+2025-10-30 07:14:42.800 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=33 HTTP/1.1" 200
+2025-10-30 07:14:42.803 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=33 HTTP/1.1" 200
+2025-10-30 07:14:42.872 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/users/user/settings/update HTTP/1.1" 200
+2025-10-30 07:14:42.880 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "POST /api/v1/users/user/settings/update HTTP/1.1" 200
+2025-10-30 07:14:42.900 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=34 HTTP/1.1" 200
+2025-10-30 07:14:42.903 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=34 HTTP/1.1" 200
+2025-10-30 07:14:43.000 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=35 HTTP/1.1" 200
+2025-10-30 07:14:43.004 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=35 HTTP/1.1" 200
+2025-10-30 07:14:43.100 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=36 HTTP/1.1" 200
+2025-10-30 07:14:43.104 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=36 HTTP/1.1" 200
+2025-10-30 07:14:43.200 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=37 HTTP/1.1" 200
+2025-10-30 07:14:43.204 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=37 HTTP/1.1" 200
+2025-10-30 07:14:43.299 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=38 HTTP/1.1" 200
+2025-10-30 07:14:43.302 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=38 HTTP/1.1" 200
+2025-10-30 07:14:43.401 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=39 HTTP/1.1" 200
+2025-10-30 07:14:43.404 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=39 HTTP/1.1" 200
+2025-10-30 07:14:43.499 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=40 HTTP/1.1" 200
+2025-10-30 07:14:43.503 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=40 HTTP/1.1" 200
+2025-10-30 07:14:43.599 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=41 HTTP/1.1" 200
+2025-10-30 07:14:43.602 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=41 HTTP/1.1" 200
+2025-10-30 07:14:43.700 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=42 HTTP/1.1" 200
+2025-10-30 07:14:43.703 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=42 HTTP/1.1" 200
+2025-10-30 07:14:43.800 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=43 HTTP/1.1" 200
+2025-10-30 07:14:43.804 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=43 HTTP/1.1" 200
+2025-10-30 07:14:43.900 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=44 HTTP/1.1" 200
+2025-10-30 07:14:43.903 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=44 HTTP/1.1" 200
+2025-10-30 07:14:43.999 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=45 HTTP/1.1" 200
+2025-10-30 07:14:44.003 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=45 HTTP/1.1" 200
+2025-10-30 07:14:44.103 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=46 HTTP/1.1" 200
+2025-10-30 07:14:44.110 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=46 HTTP/1.1" 200
+2025-10-30 07:14:44.201 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=47 HTTP/1.1" 200
+2025-10-30 07:14:44.205 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=47 HTTP/1.1" 200
+2025-10-30 07:14:44.300 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=48 HTTP/1.1" 200
+2025-10-30 07:14:44.304 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=48 HTTP/1.1" 200
+2025-10-30 07:14:44.400 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=49 HTTP/1.1" 200
+2025-10-30 07:14:44.403 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=49 HTTP/1.1" 200
+2025-10-30 07:14:44.500 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=50 HTTP/1.1" 200
+2025-10-30 07:14:44.503 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=50 HTTP/1.1" 200
+2025-10-30 07:14:44.600 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=51 HTTP/1.1" 200
+2025-10-30 07:14:44.604 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=51 HTTP/1.1" 200
+2025-10-30 07:14:44.700 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=52 HTTP/1.1" 200
+2025-10-30 07:14:44.703 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=52 HTTP/1.1" 200
+2025-10-30 07:14:44.799 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=53 HTTP/1.1" 200
+2025-10-30 07:14:44.802 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=53 HTTP/1.1" 200
+2025-10-30 07:14:44.900 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=54 HTTP/1.1" 200
+2025-10-30 07:14:44.904 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=54 HTTP/1.1" 200
+2025-10-30 07:14:45.001 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=55 HTTP/1.1" 200
+2025-10-30 07:14:45.004 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=55 HTTP/1.1" 200
+2025-10-30 07:14:45.100 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=56 HTTP/1.1" 200
+2025-10-30 07:14:45.104 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=56 HTTP/1.1" 200
+2025-10-30 07:14:45.200 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "OPTIONS /api/v1/chats/?page=57 HTTP/1.1" 200
+2025-10-30 07:14:45.204 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=57 HTTP/1.1" 200
+2025-10-30 07:14:46.663 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57869 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:14:46.665 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57871 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:14:46.674 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57871 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:14:46.678 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57871 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:14:46.700 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:14:46.701 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57876 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:14:46.701 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57877 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:14:46.716 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:14:46.718 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:14:46.724 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57877 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:14:46.734 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:14:46.735 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57877 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:14:46.735 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:14:46.739 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:14:46.741 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:14:46.746 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:14:46.870 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57851 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:14:47.950 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57876 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:14:47.971 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57886 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:14:47.972 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57888 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:14:47.972 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57887 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:14:48.417 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:57876 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:18:39.036 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58611 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:18:39.042 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58613 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:19:27.918 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "OPTIONS /api/config HTTP/1.1" 200
+2025-10-30 07:19:27.949 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58808 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:19:27.949 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58806 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:19:27.952 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "OPTIONS /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:19:27.964 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58808 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:19:27.969 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58808 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:19:27.975 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "OPTIONS /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:19:27.976 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58813 - "OPTIONS /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:19:27.976 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "OPTIONS /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:19:27.983 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "OPTIONS /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:19:27.984 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58814 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:19:27.986 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58813 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:19:27.986 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:19:27.989 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "OPTIONS /api/models HTTP/1.1" 200
+2025-10-30 07:19:27.995 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:19:27.998 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:19:27.998 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:19:28.003 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "OPTIONS /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:19:28.004 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58813 - "OPTIONS /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:19:28.016 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:19:28.016 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58813 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:19:28.017 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:19:28.020 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:19:28.021 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "OPTIONS /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:19:28.027 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:19:28.031 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "OPTIONS /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:19:28.035 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:19:28.181 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "OPTIONS /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:19:28.184 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:19:29.250 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:19:29.253 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "OPTIONS /api/version/updates HTTP/1.1" 200
+2025-10-30 07:19:29.258 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58813 - "OPTIONS /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:19:29.265 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58816 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:19:29.266 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58814 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:19:29.266 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58813 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:19:29.371 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:58804 - "GET /api/version/updates HTTP/1.1" 200
+WARNING:  WatchFiles detected changes in 'open_webui/main.py', 'open_webui/routers/tradeberg.py'. Reloading...
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+WARNING:  WatchFiles detected changes in 'open_webui/main.py', 'open_webui/routers/tradeberg.py'. Reloading...
+2025-10-30 07:20:23.254 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 49267.47it/s]
+2025-10-30 07:20:27.507 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 07:20:27.968 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 07:20:27.968 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 07:20:27.977 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 07:20:33.573 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 34370.15it/s]
+2025-10-30 07:20:36.602 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 07:20:37.235 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 07:20:37.236 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 07:20:37.245 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 07:20:37.271 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59096 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:20:37.272 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59098 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 07:20:37.414 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59098 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:20:37.617 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59098 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:20:37.643 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59138 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:20:37.643 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59139 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:20:37.644 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59140 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:20:37.662 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59140 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:20:37.667 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59140 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:20:37.668 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:20:37.668 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:20:37.677 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59140 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:20:37.678 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59138 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:20:37.686 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59138 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:20:37.689 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:20:37.694 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:20:37.695 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59138 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:20:38.863 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59139 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:20:38.946 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59153 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:20:38.954 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59155 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:20:38.956 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59139 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:20:38.956 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59157 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:22:36.797 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59775 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:22:36.800 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59777 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:23:22.054 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59973 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:23:28.442 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59992 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:23:28.445 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59994 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:23:28.469 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59994 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:23:28.473 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:59994 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:23:28.493 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60001 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:23:28.494 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60002 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:23:28.494 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60003 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:23:28.508 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:23:28.512 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:23:28.518 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60003 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:23:28.527 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:23:28.530 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60003 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:23:28.530 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60001 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:23:28.532 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:23:28.534 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60001 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:23:28.540 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60001 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:23:28.664 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60001 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:23:29.414 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60002 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:23:29.465 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60001 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:23:29.466 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60003 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:23:29.466 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60013 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:23:29.876 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60002 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:23:46.077 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60040 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:23:47.252 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60040 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:23:48.309 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60040 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:23:49.293 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60048 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:23:54.445 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60056 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:23:55.567 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60056 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:24:29.808 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60164 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:24:32.566 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60164 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:26:14.904 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60535 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:26:14.904 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60537 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:26:47.985 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60685 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:26:47.987 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60687 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:26:47.998 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60687 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:26:48.002 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60687 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:26:48.019 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60693 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:26:48.020 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60694 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:26:48.021 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60695 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:26:48.025 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60694 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:26:48.026 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:26:48.026 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:26:48.034 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60693 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:26:48.036 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60694 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:26:48.036 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:26:48.041 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60693 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:26:48.041 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:26:48.056 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60693 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:26:48.238 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60693 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:26:49.075 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60695 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:26:49.125 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60706 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:26:49.127 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60708 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:26:49.128 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60710 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:26:49.615 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60695 - "GET /api/version/updates HTTP/1.1" 200
+WARNING:  WatchFiles detected changes in 'open_webui/main.py', 'open_webui/routers/tradeberg.py'. Reloading...
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 07:27:15.930 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 13077.23it/s]
+2025-10-30 07:27:18.555 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 07:27:19.196 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 07:27:19.196 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 07:27:19.208 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 07:27:19.226 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60892 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:27:19.270 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60892 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:27:19.285 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60892 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:27:19.304 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60945 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:27:19.304 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60946 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:27:19.305 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60947 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:27:19.313 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60947 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:27:19.316 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:27:19.316 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:27:19.329 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:27:19.329 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60947 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:27:19.329 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60946 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:27:19.340 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:27:19.341 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60946 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:27:19.347 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60946 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:27:19.479 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60946 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:27:20.496 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60945 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:27:20.547 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60946 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:27:20.548 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60947 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:27:20.548 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60962 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:27:20.968 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:60945 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:28:30.323 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61267 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:28:30.324 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61268 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:29:21.739 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61521 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:29:22.890 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61521 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:29:23.954 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61521 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:29:27.601 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61531 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:29:31.075 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61537 - "OPTIONS /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:29:31.097 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:61537 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:31:46.419 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62123 - "OPTIONS /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:31:46.443 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62121 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:31:46.446 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62123 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:32:16.395 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62325 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:32:16.395 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62326 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:32:54.314 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62496 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:32:54.317 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62497 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:33:34.836 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "OPTIONS /api/config HTTP/1.1" 200
+2025-10-30 07:33:34.918 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62705 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:33:34.920 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62703 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 07:33:34.925 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "OPTIONS /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:33:34.969 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62703 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:33:34.973 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62703 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:33:34.992 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "OPTIONS /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:33:35.000 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62710 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:33:35.000 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:33:35.001 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62711 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:33:35.015 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62711 - "OPTIONS /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:33:35.018 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62711 - "OPTIONS /api/models HTTP/1.1" 200
+2025-10-30 07:33:35.037 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:33:35.040 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:33:35.050 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:33:35.057 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "OPTIONS /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:33:35.057 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62710 - "OPTIONS /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:33:35.058 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:33:35.065 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62710 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:33:35.066 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:33:35.067 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:33:35.068 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "OPTIONS /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:33:35.072 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:33:35.074 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "OPTIONS /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:33:35.080 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:33:35.201 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "OPTIONS /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:33:35.204 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62701 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:33:36.199 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62711 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:33:36.202 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62711 - "OPTIONS /api/version/updates HTTP/1.1" 200
+2025-10-30 07:33:36.222 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62721 - "OPTIONS /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:33:36.226 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62718 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:33:36.229 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62722 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:33:36.230 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62721 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:33:36.663 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:62711 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:34:52.914 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63037 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:34:52.915 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63036 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:34:56.872 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63061 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:34:59.362 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63061 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:35:00.397 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63061 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:35:01.693 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63081 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:35:03.167 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63081 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:35:04.709 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63081 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:35:06.144 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63108 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:35:15.356 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63172 - "OPTIONS /api/v1/chats/new HTTP/1.1" 200
+2025-10-30 07:35:15.420 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63172 - "POST /api/v1/chats/new HTTP/1.1" 200
+2025-10-30 07:35:15.424 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63174 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:35:15.461 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63174 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:35:15.462 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63176 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:35:15.477 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63174 - "OPTIONS /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:35:15.489 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63174 - "POST /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:35:15.493 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63174 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:35:15.510 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63174 - "OPTIONS /api/chat/completions HTTP/1.1" 200
+2025-10-30 07:35:15.524 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:35:15.526 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63176 - "POST /api/chat/completions HTTP/1.1" 200
+2025-10-30 07:35:15.540 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63179 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:35:18.102 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:35:18.106 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63179 - "OPTIONS /api/chat/completed HTTP/1.1" 200
+2025-10-30 07:35:18.111 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63179 - "POST /api/chat/completed HTTP/1.1" 200
+2025-10-30 07:35:18.117 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63179 - "POST /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:35:18.121 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63179 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:35:22.764 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:35:25.637 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:35:25.653 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63241 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:35:25.657 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63241 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:35:27.444 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63241 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:35:27.445 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63244 - "GET /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:35:27.449 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:63244 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:45:34.538 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "OPTIONS /api/config HTTP/1.1" 200
+2025-10-30 07:45:34.587 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49207 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:45:35.860 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "OPTIONS /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:45:36.282 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49207 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:45:36.730 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49207 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:45:36.859 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "OPTIONS /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:45:36.862 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49212 - "OPTIONS /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:45:36.862 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49214 - "OPTIONS /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:45:36.876 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49216 - "OPTIONS /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:45:36.900 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49214 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:45:36.902 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49212 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:45:36.903 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:45:36.908 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49216 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:45:36.909 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "OPTIONS /api/models HTTP/1.1" 200
+2025-10-30 07:45:36.912 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49218 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:45:36.912 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49216 - "OPTIONS /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:45:36.916 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:45:36.916 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:45:36.919 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49216 - "OPTIONS /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:45:36.935 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49216 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:45:36.935 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49218 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:45:36.942 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49218 - "OPTIONS /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:45:36.969 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:45:36.974 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49218 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:45:36.977 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49218 - "OPTIONS /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:45:36.978 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:45:36.984 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49218 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:45:37.978 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:45:37.998 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "OPTIONS /api/version/updates HTTP/1.1" 200
+2025-10-30 07:45:38.032 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49218 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:45:38.033 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49216 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:45:38.600 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49205 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:46:17.525 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49404 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:46:18.521 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49416 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:46:18.553 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49416 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:46:18.745 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49419 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:46:18.751 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49422 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:46:18.761 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49424 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:46:18.762 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49426 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:46:18.835 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:46:18.838 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:46:18.951 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49424 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:46:18.992 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49422 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:46:19.021 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:46:19.033 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:46:19.116 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49422 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:46:19.170 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49422 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:46:20.046 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49426 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:46:20.207 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49422 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:46:20.208 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49424 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:46:20.633 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49426 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:47:06.677 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49590 - "OPTIONS /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:47:06.727 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49590 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:47:12.462 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49613 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:47:12.495 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49613 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:47:12.503 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49613 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:47:12.542 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:47:12.544 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49620 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:47:12.544 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49622 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:47:12.552 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49622 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:47:12.560 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:47:12.562 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:47:12.617 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49622 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:47:12.618 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:47:12.621 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:47:12.630 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:47:12.635 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:47:12.642 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:47:12.766 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:47:13.250 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49620 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:47:13.266 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "OPTIONS /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:47:13.274 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:47:13.276 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "OPTIONS /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7/tags HTTP/1.1" 200
+2025-10-30 07:47:13.285 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/chats/6b7154ca-e886-42e8-9665-1b7be6a214b7/tags HTTP/1.1" 200
+2025-10-30 07:47:13.301 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:47:13.303 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "OPTIONS /api/tasks/chat/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:47:13.310 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/tasks/chat/6b7154ca-e886-42e8-9665-1b7be6a214b7 HTTP/1.1" 200
+2025-10-30 07:47:13.391 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49618 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:47:13.726 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49620 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 07:47:18.849 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49653 - "OPTIONS /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:47:18.868 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49650 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:47:18.869 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:47:18.877 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49653 - "GET /api/v1/functions/ HTTP/1.1" 200
+2025-10-30 07:47:21.812 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49653 - "OPTIONS /api/v1/chats/new HTTP/1.1" 200
+2025-10-30 07:47:21.859 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49653 - "POST /api/v1/chats/new HTTP/1.1" 200
+2025-10-30 07:47:21.862 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:47:21.915 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 07:47:21.926 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "OPTIONS /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:47:21.934 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "POST /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:47:21.940 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:47:21.956 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "OPTIONS /api/chat/completions HTTP/1.1" 200
+2025-10-30 07:47:21.983 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:47:21.984 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49667 - "POST /api/chat/completions HTTP/1.1" 200
+2025-10-30 07:47:21.990 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49654 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:47:24.564 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:47:24.588 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49674 - "OPTIONS /api/chat/completed HTTP/1.1" 200
+2025-10-30 07:47:24.635 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49674 - "POST /api/chat/completed HTTP/1.1" 200
+2025-10-30 07:47:24.647 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49674 - "POST /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:47:24.655 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49674 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:47:28.151 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:47:30.379 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49688 - "POST /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:47:30.397 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49688 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:47:30.437 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49690 - "POST /api/chat/completions HTTP/1.1" 200
+2025-10-30 07:47:30.447 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49688 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:47:31.189 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:47:31.196 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49688 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:47:33.610 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49702 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:47:33.621 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:49702 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+WARNING:  WatchFiles detected changes in 'open_webui/routers/tradeberg.py'. Reloading...
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 07:51:19.843 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 528693.78it/s]
+2025-10-30 07:51:26.552 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 07:51:27.020 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 07:51:27.020 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 07:51:27.027 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 07:51:27.042 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50440 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:51:27.044 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50442 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 07:51:27.065 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50442 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:51:27.070 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50442 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:51:27.095 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50486 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:51:27.096 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50487 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:51:27.096 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:51:27.111 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:51:27.115 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:51:27.115 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:51:27.117 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:51:27.120 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:51:27.126 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:51:27.126 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50486 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:51:27.127 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:51:27.132 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:51:27.138 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:51:27.934 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50487 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:51:27.970 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:51:27.977 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "OPTIONS /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13/tags HTTP/1.1" 200
+2025-10-30 07:51:27.985 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13/tags HTTP/1.1" 200
+2025-10-30 07:51:27.991 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:51:27.994 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "OPTIONS /api/tasks/chat/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:51:28.001 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/tasks/chat/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:51:28.120 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50489 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:51:28.416 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50487 - "GET /api/version/updates HTTP/1.1" 200
+WARNING:  WatchFiles detected changes in 'open_webui/routers/tradeberg.py'. Reloading...
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 07:51:42.094 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 35675.96it/s]
+2025-10-30 07:51:44.715 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 07:51:45.328 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 07:51:45.328 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 07:51:45.343 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 07:51:45.365 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50558 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:51:45.366 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50560 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 07:51:45.418 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50560 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 07:51:45.423 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50560 - "GET /api/config HTTP/1.1" 200
+2025-10-30 07:51:45.443 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50595 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 07:51:45.443 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50596 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:51:45.443 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:51:45.451 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 07:51:45.455 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 07:51:45.455 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 07:51:45.457 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 07:51:45.463 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:51:45.464 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50595 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 07:51:45.464 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 07:51:45.466 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 07:51:45.469 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 07:51:45.473 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 07:51:46.166 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50596 - "GET /api/models HTTP/1.1" 200
+2025-10-30 07:51:46.178 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:51:46.189 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13/tags HTTP/1.1" 200
+2025-10-30 07:51:46.193 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 07:51:46.198 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/tasks/chat/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 07:51:46.278 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50597 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 07:51:46.279 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:50596 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 08:02:21.623 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "OPTIONS /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 08:02:21.656 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 08:02:22.338 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "OPTIONS /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:02:22.374 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "POST /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:02:22.380 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "OPTIONS /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 08:02:22.385 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 08:02:22.397 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "OPTIONS /api/chat/completions HTTP/1.1" 200
+2025-10-30 08:02:22.420 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 08:02:22.423 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51836 - "POST /api/chat/completions HTTP/1.1" 200
+2025-10-30 08:02:22.432 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:51831 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+WARNING:  WatchFiles detected changes in 'open_webui/routers/tradeberg.py'. Reloading...
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 08:03:46.978 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 33341.05it/s]
+2025-10-30 08:03:51.083 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 08:03:51.705 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 08:03:51.705 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 08:03:51.714 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 08:03:51.717 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "OPTIONS /api/config HTTP/1.1" 200
+2025-10-30 08:03:51.723 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "OPTIONS /api/config HTTP/1.1" 200
+2025-10-30 08:03:51.735 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52181 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 08:03:51.736 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52215 - "GET /api/config HTTP/1.1" 200
+2025-10-30 08:03:51.789 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "OPTIONS /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 08:03:51.805 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52215 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 08:03:51.819 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52215 - "GET /api/config HTTP/1.1" 200
+2025-10-30 08:03:51.859 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "OPTIONS /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 08:03:51.860 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "OPTIONS /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 08:03:51.861 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "OPTIONS /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 08:03:51.868 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 08:03:51.868 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52221 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 08:03:51.870 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 08:03:51.886 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 08:03:51.893 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "OPTIONS /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 08:03:51.894 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52221 - "OPTIONS /api/models HTTP/1.1" 200
+2025-10-30 08:03:51.899 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 08:03:51.900 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 08:03:51.904 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52221 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 08:03:51.911 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52221 - "OPTIONS /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 08:03:51.911 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "OPTIONS /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 08:03:51.915 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 08:03:51.928 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52221 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 08:03:51.930 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 08:03:51.930 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 08:03:51.932 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "OPTIONS /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 08:03:51.945 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 08:03:52.106 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 08:03:52.256 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 08:03:52.816 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "GET /api/models HTTP/1.1" 200
+2025-10-30 08:03:52.819 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "OPTIONS /api/version/updates HTTP/1.1" 200
+2025-10-30 08:03:52.846 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:03:52.982 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "OPTIONS /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13/tags HTTP/1.1" 200
+2025-10-30 08:03:52.999 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13/tags HTTP/1.1" 200
+2025-10-30 08:03:53.024 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 08:03:53.027 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "OPTIONS /api/tasks/chat/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:03:53.032 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/tasks/chat/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:03:53.164 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52179 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 08:03:53.286 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52158 - "GET /api/version/updates HTTP/1.1" 200
+WARNING:  WatchFiles detected changes in 'open_webui/routers/tradeberg.py'. Reloading...
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 08:04:14.642 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 171429.32it/s]
+2025-10-30 08:04:17.459 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 08:04:17.904 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 08:04:17.904 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 08:04:17.911 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+2025-10-30 08:04:17.923 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52344 - "GET /api/config HTTP/1.1" 200
+2025-10-30 08:04:17.925 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52346 - "GET /static/favicon.png HTTP/1.1" 200
+2025-10-30 08:04:17.966 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52346 - "GET /api/v1/auths/ HTTP/1.1" 200
+2025-10-30 08:04:17.973 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52346 - "GET /api/config HTTP/1.1" 200
+2025-10-30 08:04:17.986 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 08:04:17.986 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52387 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2025-10-30 08:04:17.987 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52389 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 08:04:17.994 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 08:04:17.994 | INFO     | open_webui.routers.ollama:get_all_models:348 - get_all_models()
+2025-10-30 08:04:17.995 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/channels/ HTTP/1.1" 200
+2025-10-30 08:04:17.996 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52391 - "GET /static/favicon.png HTTP/1.1" 304
+2025-10-30 08:04:17.999 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 08:04:18.004 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52391 - "GET /api/v1/folders/ HTTP/1.1" 200
+2025-10-30 08:04:18.004 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2025-10-30 08:04:18.005 | ERROR    | open_webui.routers.ollama:send_get_request:106 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 11434, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 11434)]
+2025-10-30 08:04:18.008 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2025-10-30 08:04:18.014 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 08:04:18.140 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2025-10-30 08:04:19.086 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52389 - "GET /api/models HTTP/1.1" 200
+2025-10-30 08:04:19.102 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:04:19.116 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13/tags HTTP/1.1" 200
+2025-10-30 08:04:19.121 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2025-10-30 08:04:19.128 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/tasks/chat/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:04:19.188 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52388 - "GET /api/v1/tools/ HTTP/1.1" 200
+2025-10-30 08:04:19.254 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52389 - "GET /api/version/updates HTTP/1.1" 200
+2025-10-30 08:04:28.656 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52416 - "POST /api/v1/chats/94a9e7ab-441d-4949-944d-544e4769cc13 HTTP/1.1" 200
+2025-10-30 08:04:28.677 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52416 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 08:04:28.697 | INFO     | open_webui.routers.openai:get_all_models:490 - get_all_models()
+2025-10-30 08:04:28.698 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52418 - "POST /api/chat/completions HTTP/1.1" 200
+2025-10-30 08:04:28.704 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:52416 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2025-10-30 11:24:47.359 | INFO     | uvicorn.protocols.http.httptools_impl:send:476 - 127.0.0.1:55621 - "OPTIONS /api/config HTTP/1.1" 200
