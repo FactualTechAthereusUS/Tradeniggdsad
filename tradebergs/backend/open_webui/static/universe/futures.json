@@ -1,0 +1,11 @@
+[
+  {"symbol":"ES=F","name":"E-mini S&P 500 Futures"},
+  {"symbol":"NQ=F","name":"E-mini NASDAQ-100 Futures"},
+  {"symbol":"YM=F","name":"Dow Jones Futures"},
+  {"symbol":"RTY=F","name":"E-mini Russell 2000 Futures"},
+  {"symbol":"CL=F","name":"Crude Oil Futures"},
+  {"symbol":"NG=F","name":"Natural Gas Futures"},
+  {"symbol":"GC=F","name":"Gold Futures"},
+  {"symbol":"SI=F","name":"Silver Futures"}
+]
+

@@ -1,0 +1,34 @@
+Loading WEBUI_SECRET_KEY from file, not provided as an environment variable.
+Generating WEBUI_SECRET_KEY
+Loading WEBUI_SECRET_KEY from .webui_secret_key
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [open_webui.env] 'ENABLE_SIGNUP' loaded from the latest database entry
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+INFO  [open_webui.env] VECTOR_DB: chroma
+INFO  [open_webui.env] Embedding model set: sentence-transformers/all-MiniLM-L6-v2
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+2025-10-30 23:29:25.928 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.6.34 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 146996.64it/s]
+2025-10-30 23:29:30.139 | INFO     | sentence_transformers.SentenceTransformer:__init__:227 - Load pretrained SentenceTransformer: /Users/anmolunhinged/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+2025-10-30 23:29:30.657 | INFO     | open_webui.utils.logger:start_logger:162 - GLOBAL_LOG_LEVEL: INFO
+2025-10-30 23:29:30.657 | INFO     | open_webui.main:lifespan:562 - Installing external dependencies of functions and tools...
+2025-10-30 23:29:30.664 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:283 - No requirements found in frontmatter.
+/Users/anmolunhinged/.pyenv/versions/3.12.11/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

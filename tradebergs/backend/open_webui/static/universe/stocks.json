@@ -1,0 +1,15 @@
+[
+  {"symbol":"AAPL","name":"Apple Inc."},
+  {"symbol":"MSFT","name":"Microsoft Corp."},
+  {"symbol":"NVDA","name":"NVIDIA Corp."},
+  {"symbol":"AMZN","name":"Amazon.com Inc."},
+  {"symbol":"META","name":"Meta Platforms Inc."},
+  {"symbol":"GOOGL","name":"Alphabet Inc. (Class A)"},
+  {"symbol":"TSLA","name":"Tesla Inc."},
+  {"symbol":"SPY","name":"SPDR S&P 500 ETF"},
+  {"symbol":"QQQ","name":"Invesco QQQ Trust"},
+  {"symbol":"^GSPC","name":"S&P 500 Index"},
+  {"symbol":"^NDX","name":"NASDAQ 100 Index"},
+  {"symbol":"^DJI","name":"Dow Jones Industrial Average"}
+]
+

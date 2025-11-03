@@ -1,0 +1,87 @@
+
+> open-webui@0.6.34 dev
+> npm run pyodide:fetch && vite dev --host --host --port 5173
+
+
+> open-webui@0.6.34 pyodide:fetch
+> node scripts/prepare-pyodide.js
+
+Setting up pyodide + micropip
+Loading micropip package
+Loading micropip
+Loaded micropip
+Downloading Pyodide packages: [
+  'micropip',   'packaging',
+  'requests',   'beautifulsoup4',
+  'numpy',      'pandas',
+  'matplotlib', 'scikit-learn',
+  'scipy',      'regex',
+  'sympy',      'tiktoken',
+  'seaborn',    'pytz',
+  'black',      'openai'
+]
+Installing package: micropip
+Installing package: packaging
+Loading packaging
+Loaded packaging
+Installing package: requests
+Loading certifi, charset-normalizer, idna, requests, urllib3
+Loaded certifi, charset-normalizer, idna, requests, urllib3
+Installing package: beautifulsoup4
+Loading beautifulsoup4, soupsieve, typing-extensions
+Loaded beautifulsoup4, soupsieve, typing-extensions
+Installing package: numpy
+Loading numpy
+Loaded numpy
+Installing package: pandas
+numpy already loaded from default channel
+Loading pandas, python-dateutil, pytz, six
+Loaded pandas, python-dateutil, pytz, six
+Installing package: matplotlib
+numpy already loaded from default channel
+six already loaded from default channel
+packaging already loaded from default channel
+python-dateutil already loaded from default channel
+pytz already loaded from default channel
+Loading Pillow, contourpy, cycler, fonttools, kiwisolver, matplotlib, pyparsing
+Loaded Pillow, contourpy, cycler, fonttools, kiwisolver, matplotlib, pyparsing
+Installing package: scikit-learn
+numpy already loaded from default channel
+Loading joblib, libopenblas, scikit-learn, scipy, threadpoolctl
+Loaded joblib, libopenblas, scikit-learn, scipy, threadpoolctl
+Installing package: scipy
+Installing package: regex
+Loading regex
+Loaded regex
+Installing package: sympy
+Loading mpmath, sympy
+Loaded mpmath, sympy
+Installing package: tiktoken
+regex already loaded from default channel
+requests already loaded from default channel
+Loading tiktoken
+Loaded tiktoken
+Installing package: seaborn
+Installing package: pytz
+Installing package: black
+Loading click, platformdirs
+Loaded click, platformdirs
+Installing package: openai
+typing-extensions already loaded from default channel
+Loading annotated-types, anyio, distro, httpx, jiter, libopenssl, openai, pydantic, pydantic_core, sniffio, ssl
+Loaded annotated-types, anyio, distro, httpx, jiter, libopenssl, openai, pydantic, pydantic_core, sniffio, ssl
+Pyodide packages downloaded, freezing into lock file
+Copying Pyodide files into static directory
+11:29:59 PM [vite-plugin-svelte] WARNING: The following packages have a svelte field in their package.json but no exports condition for svelte.
+
+@sveltejs/svelte-virtual-list@3.0.1
+
+Please see https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/faq.md#missing-exports-condition for details.
+
+  VITE v5.4.19  ready in 1989 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.6:5173/
+  ➜  Network: http://10.14.0.2:5173/
+[vite-plugin-static-copy] Collected 2 items.
+sh: line 1:  7930 Killed: 9               vite dev --host --host --port 5173

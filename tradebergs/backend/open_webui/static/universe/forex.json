@@ -1,0 +1,8 @@
+[
+  {"symbol":"EURUSD=X","name":"Euro / U.S. Dollar"},
+  {"symbol":"GBPUSD=X","name":"British Pound / U.S. Dollar"},
+  {"symbol":"USDJPY=X","name":"U.S. Dollar / Japanese Yen"},
+  {"symbol":"AUDUSD=X","name":"Australian Dollar / U.S. Dollar"},
+  {"symbol":"USDCAD=X","name":"U.S. Dollar / Canadian Dollar"}
+]
+
